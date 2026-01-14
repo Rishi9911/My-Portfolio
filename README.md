@@ -1,16 +1,60 @@
-# My Portfolio
+# 👋 Hi, I'm Rishi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my GitHub!
 
-Currently, two official plugins are available:
+I am a **Computer Science & Engineering student** with a strong interest in **C++, Artificial Intelligence, and Machine Learning**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository is intentionally kept simple and acts as an **introduction** to who I am and what I am currently learning.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 About Me
+- 🎓 Final-year CSE student at **Panjab University**
+- 💻 Primary language: **C++**
+- 🤖 Learning **AI & Machine Learning** (beginner → intermediate)
+- 🧠 Interested in problem solving, algorithms, and intelligent systems
+- 🚀 Focused on building **practical, real-world projects**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technical Skills
+- **Languages:** C++, Python
+- **Core Concepts:**  
+  - Data Structures & Algorithms  
+  - Object-Oriented Programming  
+  - Basics of Machine Learning
+- **Tools:** Git, GitHub, VS Code
+
+---
+
+## 📂 Featured Projects
+- 🚆 **Train Delay Predictor**  
+  Machine learning project using Python to predict train delays.
+
+- 💰 **Sheroes Restaurant Site**  
+  A simple restaurant website built using HTML,CSS And Javascript dedicated to **Acid Attack survivors popularly known as Sheroes**.
+
+> More focused AI/ML projects will be added soon.
+
+---
+
+## 🌱 Currently Learning
+- Machine Learning fundamentals
+- Model training & evaluation
+- Python for data analysis
+- Competitive programming in C++
+
+---
+
+## 🔗 Links
+- 🌐 Portfolio: *https://my-portfolio-one-navy-41.vercel.app/*
+- 💼 LinkedIn: *https://www.linkedin.com/in/rishi-chaudhari-30133518b/*
+- 📫 Email: *rishichaudhari999@gmail.com*
+
+---
+
+## ⭐ Note
+This repository is meant to serve as a **starting point** for visitors.  
+For complete projects, please explore my other repositories.
+
+Thanks for visiting! 🙂
