@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* 
+  MODERN THEME VARIABLES 
+  Using HSL values for easy opacity manipulation 
+*/
+:root {
+  /* LIGHT: Crisp, clean, slight blue tint over pure gray */
+  --bg-primary: 210 40% 98%;   /* ~ #f8fafc */
+  --bg-secondary: 0 0% 100%;   /* White */
+  
+  --text-primary: 222 47% 11%; /* ~ #0f172a */
+  --text-secondary: 215 16% 47%;/* ~ #64748b */
+  
+  --accent-primary: 243 75% 59%; /* Indigo-500 #6366f1 */
+  --accent-glow: 243 75% 59%; 
+  
+  --nav-bg: 255 255 255;
+  --border-color: 214 32% 91%;
+}
+
+.dark {
+  /* DARK: Deep, rich midnight blue instead of flat black */
+  --bg-primary: 222 47% 11%;   /* ~ #0f172a */
+  --bg-secondary: 217 33% 17%; /* ~ #1e293b */
+
+  --text-primary: 210 40% 98%; /* ~ #f8fafc */
+  --text-secondary: 215 20% 65%; /* ~ #94a3b8 */
+
+  --accent-primary: 243 100% 69%; /* Indigo-400 slightly lighter for dark mode */
+  --accent-glow: 243 75% 59%;
+
+  --nav-bg: 15 23 42; /* slate-950 */
+  --border-color: 217 33% 22%;
+}
+
+@theme {
+  --color-canvas: hsl(var(--bg-primary));
+  --color-card: hsl(var(--bg-secondary));
+  --color-ink: hsl(var(--text-primary));
+  --color-ink-muted: hsl(var(--text-secondary));
+  --color-prime: hsl(var(--accent-primary));
+}
+
+body {
+  background-color: hsl(var(--bg-primary));
+  color: hsl(var(--text-primary));
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== UTILITIES ===== */
+
+/* Glass Effect */
+.glass {
+  background: rgba(var(--nav-bg), 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .glass {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Glass Card */
+.glass-card {
+  background: rgba(var(--bg-secondary), 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid hsl(var(--border-color));
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.dark .glass-card {
+  background: rgba(30, 41, 59, 0.4); /* darker tint */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Gradient Text */
+.text-gradient {
+  background: linear-gradient(to right, hsl(var(--accent-primary)), #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--bg-primary));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--text-secondary) / 0.3);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--text-secondary) / 0.5);
+}
+
+/* Blobs */
+.blob {
+  position: absolute;
+  filter: blur(80px);
+  z-index: 0;
+  opacity: 0.4;
+  border-radius: 50%;
+  animation: float 10s infinite ease-in-out alternate;
+}
+
+@keyframes float {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(20px, -20px) scale(1.1); }
+}
+
+.blob-indigo { background-color: #6366f1; width: 400px; height: 400px; }
+.blob-cyan { background-color: #06b6d4; width: 300px; height: 300px; }
+.blob-pink { background-color: #ec4899; width: 350px; height: 350px; }
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
