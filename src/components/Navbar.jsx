@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Sun, Moon } from "lucide-react";
 
-const navLinks = ["about", "skills", "projects", "contact"];
+const navLinks = ["experience", "skills", "projects", "contact"];
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -73,7 +73,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
 
           {/* LOGO */}
-          <a href="#" className="text-xl font-bold tracking-tight text-prime flex items-center gap-2">
+          <a className="text-xl font-bold tracking-tight text-prime flex items-center gap-2">
             <img src="/logo.png" alt="Logo" className="w-20 h-20 object-contain" />
             <span>Portfolio<span className="text-ink">.</span></span>
           </a>
