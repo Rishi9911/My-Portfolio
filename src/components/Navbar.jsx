@@ -74,7 +74,7 @@ const Navbar = () => {
 
           {/* LOGO */}
           <a href="#" className="text-xl font-bold tracking-tight text-prime flex items-center gap-2">
-            <img src="/Logo Portfolio.png" alt="Logo" className="w-20 h-22 object-contain" />
+            <img src="/logo.png" alt="Logo" className="w-20 h-20 object-contain" />
             <span>Portfolio<span className="text-ink">.</span></span>
           </a>
 
