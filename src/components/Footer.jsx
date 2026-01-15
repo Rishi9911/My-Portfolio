@@ -15,11 +15,11 @@ const Footer = () => {
     },
     {
       icon: <Github size={24} />,
-      href: "https://github.com/Rishi9911", // Inferred from Projects.jsx
+      href: "https://github.com/Rishi9911",
       label: "GitHub",
     },
     {
-      icon: <CodeXml size={24} />, // LeetCode
+      icon: <CodeXml size={24} />,
       href: "https://leetcode.com/u/include_rishi/",
       label: "LeetCode",
     },
@@ -42,7 +42,14 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <p>© 2026 Rishi. All rights reserved.</p>
+        <p>
+          © 2026 Rishi. All rights reserved.
+          <img
+            src="/lucky.jpeg"
+            alt="Lucky"
+            className="w-6 h-6 object-cover rounded-full opacity-30 hover:opacity-100 transition-opacity duration-300 ml-2 inline-block"
+          />
+        </p>
       </footer>
     </SectionGlow>
   );
