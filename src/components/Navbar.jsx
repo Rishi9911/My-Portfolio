@@ -62,8 +62,8 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled
-          ? "py-4"
-          : "py-6"
+        ? "py-4"
+        : "py-6"
         }`}
     >
       <div
@@ -73,8 +73,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
 
           {/* LOGO */}
-          <a href="#" className="text-xl font-bold tracking-tight text-prime">
-            Portfolio<span className="text-ink">.</span>
+          <a href="#" className="text-xl font-bold tracking-tight text-prime flex items-center gap-2">
+            <img src="/Logo Portfolio.png" alt="Logo" className="w-20 h-22 object-contain" />
+            <span>Portfolio<span className="text-ink">.</span></span>
           </a>
 
           {/* DESKTOP MENU */}

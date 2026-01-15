@@ -26,6 +26,30 @@ const certifications = [
     year: "Feb 2025 – Jul 2025",
     file: "/certificates/technical-content-writer.pdf",
   },
+  {
+    title: "Introduction to Artificial Intelligence",
+    issuer: "Infosys Springboard",
+    year: "2026",
+    file: "/certificates/Springboard Introduction to AI.pdf",
+  },
+  {
+    title: "Python for Data Science, AI & Development",
+    issuer: "Coursera (IBM)",
+    year: "2025",
+    file: "/certificates/Python for datascience AI and development.pdf",
+  },
+  {
+    title: "Industrial Training on Coding Skills",
+    issuer: "TPoint Tech (Java T Point)",
+    year: "Nov 2024 - Dec 2024",
+    file: "/certificates/javaTpoint.pdf",
+  },
+  {
+    title: "50 Days Badge 2025 (Problem Solving)",
+    issuer: "LeetCode",
+    year: "2025",
+    file: "/certificates/leetcode 50 daybadge.png",
+  },
 ];
 
 const Certifications = () => {
@@ -33,7 +57,7 @@ const Certifications = () => {
     <section id="certifications" className="py-28 px-6">
       <div className="section-container">
         <h2 className="text-3xl font-bold mb-10 text-indigo-500">
-          Certifications
+          Certifications and Achievements
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">

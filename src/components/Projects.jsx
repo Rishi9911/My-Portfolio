@@ -5,10 +5,10 @@ const projects = [
   {
     title: "Portfolio Website",
     description:
-      "A personal portfolio built using React, Tailwind CSS, and Framer Motion. Features a custom dark mode, glassmorphism design, and smooth animations.",
+      "A personal portfolio built using React, Tailwind CSS, and Framer Motion. Deployed the project using Vercel",
     tech: ["React", "Tailwind", "Framer Motion"],
-    live: "#",
-    github: "#",
+    live: "https://my-portfolio-one-navy-41.vercel.app/",
+    github: "https://github.com/Rishi9911/My-Portfolio",
   },
   {
     title: "Train Delay Prediction",
@@ -23,8 +23,8 @@ const projects = [
     description:
       "A fully responsive restaurant landing page with menu filtering, persistent cart state, and optimized asset loading for core web vitals.",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    live: "#",
-    github: "#",
+    live: "https://rishi9911.github.io/Sheroes-Restaurant-Site/",
+    github: "https://github.com/Rishi9911/Sheroes-Restaurant-Site",
   },
 ];
 

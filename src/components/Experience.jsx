@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import SectionGlow from "./SectionGlow";
 
 const experiences = [
   {
@@ -43,7 +42,6 @@ const experiences = [
 const Experience = () => {
   return (
     <section id="experience" className="py-28 px-6">
-      <SectionGlow>
       <div className="section-container">
         <h2 className="text-3xl font-bold mb-12 text-indigo-500">
           Experience
@@ -98,7 +96,6 @@ const Experience = () => {
           ))}
         </div>
       </div>
-      </SectionGlow>
     </section>
   );
 };

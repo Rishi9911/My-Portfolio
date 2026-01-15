@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import profile from "../assets/profile.png";
 
 const stats = [
-  { value: "10+", label: "Projects" },
+  { value: "3", label: "Projects" },
   { value: "5+", label: "Skills" },
-  { value: "1+", label: "Year Exp" },
+  { value: "4+", label: "Certifications" },
 ];
 
 const Hero = () => {
@@ -35,12 +35,12 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight text-ink">
-            Building Digital <br />
-            <span className="text-gradient">Experiences</span>
+            Building Intelligent <br />
+            <span className="text-gradient">Systems</span>
           </h1>
 
           <p className="text-lg md:text-xl text-ink-muted mb-8 max-w-lg leading-relaxed">
-            I'm <span className="text-prime font-semibold">Rishi</span>, a Frontend Developer crafting beautiful, responsive, and performance-optimized web applications.
+            Hi,<span className="text-prime font-semibold"> I'm Rishi</span>| AI & Machine Learning enthusiast | C++ Programmer
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -77,7 +77,8 @@ const Hero = () => {
             <div className="w-12 h-1 bg-gradient-to-r from-indigo-500 to-pink-500 rounded-full mb-6"></div>
 
             <p className="text-ink-muted mb-8 text-lg leading-relaxed">
-              Passionate about bridging the gap between design and clean code. I specialize in the React ecosystem and modern CSS capabilities.
+              I'm a final-year Computer Science Engineering student with a strong interest in Artificial Intelligence and Machine Learning. I work primarily with C++, Python, and machine learning libraries, and I enjoy applying these skills to real-world problems.
+              My interests include predictive modeling, data preprocessing, and building practical ML applications.
             </p>
 
             <div className="grid grid-cols-3 gap-6 border-t border-border pt-6">
@@ -95,9 +96,9 @@ const Hero = () => {
           </div>
 
           {/* Floating Technology Badges */}
-          <FloatingBadge text="React" position="-top-6 -right-6" delay={0} color="text-sky-400 bg-sky-400/10" />
-          <FloatingBadge text="Tailwind" position="bottom-12 -left-8" delay={2} color="text-cyan-400 bg-cyan-400/10" />
-          <FloatingBadge text="Framer" position="top-1/2 -right-12" delay={1.5} color="text-purple-400 bg-purple-400/10" />
+          <FloatingBadge text="C++" position="-top-6 -right-6" delay={0} color="text-sky-400 bg-sky-400/10" />
+          <FloatingBadge text="Python" position="bottom-12 -left-8" delay={2} color="text-cyan-400 bg-cyan-400/10" />
+          <FloatingBadge text="PostgreSQL" position="top-1/2 -right-12" delay={1.5} color="text-purple-400 bg-purple-400/10" />
 
         </motion.div>
       </div>
