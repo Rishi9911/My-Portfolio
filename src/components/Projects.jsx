@@ -15,8 +15,8 @@ const projects = [
     description:
       "Machine learning model to predict Indian Railways train delays. Built with Flask backend and Scikit-learn, achieving 85% accuracy on test data.",
     tech: ["Python", "Flask", "Scikit-Learn"],
-    live: "#",
-    github: "#",
+    live: "https://train-delay-predictor.vercel.app",
+    github: "https://github.com/Rishi9911/train-delay-predictor",
   },
   {
     title: "Restaurant Website",
