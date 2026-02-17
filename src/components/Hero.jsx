@@ -51,7 +51,7 @@ const Hero = () => {
               Explore Work
             </a>
             <a
-              href="/resume.pdf"
+              href="/Rishi_Resume.pdf"
               download
               className="px-8 py-4 rounded-xl border border-border bg-canvas/50 text-ink font-medium hover:bg-canvas hover:border-prime transition text-center"
             >
